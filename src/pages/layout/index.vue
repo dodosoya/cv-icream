@@ -5,10 +5,13 @@ const router = useRouter()
 
 <template>
   <div class="h-full flex flex-col justify-center items-center gap-10">
-    <div>{{ t('home.title') }}</div>
-    <div>
-      <button btn @click="router.push('layout')">
-        {{ t('home.button.start_cv') }}
+    <div>{{ t('layout.title') }}</div>
+    <div class="flex gap-10">
+      <button btn>
+        {{ t('layout.button.upload_cv') }}
+      </button>
+      <button btn @click="router.push('template')">
+        {{ t('layout.button.next_step') }}
       </button>
     </div>
   </div>
