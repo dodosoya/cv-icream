@@ -1,5 +1,5 @@
 <template>
   <header class="h-20 leading-80px text-center bg-white border-b border-b-gray-400">
-    Header
+    Headera
   </header>
 </template>
