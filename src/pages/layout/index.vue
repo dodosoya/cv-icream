@@ -8,9 +8,11 @@ const router = useRouter()
     <div>{{ t('layout.title') }}</div>
     <div class="flex gap-10">
       <button btn>
+        <div i-heroicons-outline-plus-sm class="icon inline-block align-text-bottom" />
         {{ t('layout.button.upload_cv') }}
       </button>
       <button btn @click="router.push('template')">
+        <div i-heroicons-outline-arrow-circle-right class="icon inline-block align-text-bottom" />
         {{ t('layout.button.next_step') }}
       </button>
     </div>
