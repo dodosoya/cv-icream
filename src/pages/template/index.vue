@@ -8,9 +8,11 @@ const router = useRouter()
     <div>{{ t('template.title') }}</div>
     <div class="flex gap-10">
       <button btn @click="router.back()">
+        <div i-heroicons-outline-arrow-circle-left class="icon inline-block align-text-bottom" />
         {{ t('template.button.back') }}
       </button>
       <button btn @click="router.push('edit')">
+        <div i-heroicons-outline-arrow-circle-right class="icon inline-block align-text-bottom" />
         {{ t('template.button.next_step') }}
       </button>
     </div>
